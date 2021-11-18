@@ -1,12 +1,6 @@
 <?php
 include_once 'Connection.php';
 //Accepts username to check if it exists or not
-// if (isset($_REQUEST["username"])) {
-//     $username = $_REQUEST["username"];
-//     $accObj = new Account();
-//     $accObj->setUserName($username);
-//     $accObj->checkUserName();
-// }
 
 class Account
 {

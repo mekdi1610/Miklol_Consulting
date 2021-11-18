@@ -605,11 +605,11 @@ ul.list-justify > li {
   background-color: #f7f7f7; }
 
 .btn-success {
-  background-color: #41B314;
-  border-color: #3ca512; }
+  background-color: #376ebc;
+  border-color: #376ebc; }
   .btn-success:hover, .btn-success:focus {
-    background-color: #3ca512;
-    border-color: #3ca512; }
+    background-color: #376ebc;
+    border-color: #376ebc; }
 
 .btn.disabled,
 .btn[disabled],

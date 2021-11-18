@@ -1,8 +1,8 @@
 <?php
-// session_start(); //Start the session
-// if(!isset($_SESSION["UserName"])){ //If session not registered
-// header("location:Login/login.php"); // Redirect to login.php page
-// }
+session_start(); //Start the session
+if(!isset($_SESSION["UserName"])){ //If session not registered
+header("location:Login/login.php"); // Redirect to login.php page
+}
 // else //Continue to current page
 // header( 'Content-Type: text/html; charset=utf-8' );
 
