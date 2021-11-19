@@ -130,14 +130,14 @@
                                         
                                     </li>
                                     <li class="dropdown-item">
-                                        <a href="company-overview.html">About</a>
+                                        <a href="company-overview.php">About</a>
                                         
                                     </li>
                                     <li class="dropdown-item">
-                                        <a href="services.html">Services</a>
+                                        <a href="services.php">Services</a>
                                         
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
                                     <!--space--->
                                     <li></li>
                                     <li class="in"><a><i class="fab fa-facebook-f"></i></a></li>
