@@ -112,7 +112,7 @@
                     <div class="row">
                         <div class="site-logo col-md-2 col-sm-6 col-xs-6">
                             <a href="#" class="logo">
-                                <img src="homepage2/img-1/logo-delware.png" class="logo-dark show-logo" alt="logo" />
+                                <img src="image/miklol.png" class="logo-dark show-logo" alt="logo" />
                             </a>
                             <h1 class="site-title"><a href="#">Delaware</a></h1>
                             <h2 class="site-description">Just another Steel Themes Sites site</h2>
