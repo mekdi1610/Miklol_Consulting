@@ -60,7 +60,7 @@
                   <div class="container">
                      <div class="row">
                         <div class="site-logo col-md-3 col-sm-6 col-xs-6">
-                           <a href="#" class="logo">
+                           <a href="index.php" class="logo">
                               <img src="image/svg1/logo-delware.png" class="logo-dark show-logo"  alt="img"/>
                            </a>
                            <h1 class="site-title"><a href="#">FactoryPlus</a></h1>
@@ -75,16 +75,16 @@
                            <nav id="site-navigation" class="main-nav primary-nav nav">
                            <ul id="primary-menu" class="menu">
                               <li class="dropdown-item">
-                                 <a href="index.html">Home</a>
+                                 <a href="index.php">Home</a>
                                  
                               </li>
                               <li class="dropdown-item">
-                                 <a href="company-overview.html">About</a>
+                                 <a href="company-overview.php">About</a>
                               </li>
                               <li class="dropdown-item current-menu-item">
-                                 <a href="services.html">Services</a>
+                                 <a href="services.php">Services</a>
                               </li>
-                              <li><a href="contact.html">Contact</a></li>
+                              <li><a href="contact.php">Contact</a></li>
                            </ul>
                            <ul class="extra-menu-item menu-item-button-link pull-right">
                               <li class="in"><a><i class="fab fa-facebook-f"></i></a></li>
