@@ -34,7 +34,7 @@
 
 		<!-- NAVBAR -->
 		<nav class="navbar navbar-default navbar-fixed-top">
-			<div  style=" padding-top: 10px;  padding-bottom: 10px;" class="brand">
+			<div  style=" padding-top: 11px;  padding-bottom: 10px;" class="brand">
 				<a href="about.php"><img src="assets/img/miklol2.png" style="max-height: 70px;"  alt="Klorofil Logo" class="img-responsive logo"></a>
 			</div>
 			<div class="container-fluid">
