@@ -19,7 +19,7 @@
       <link rel="icon" href="image/favicon.ico" type="image/x-icon">
       </head>
    <body>
-   <?php include 'header.php'; ?> 
+      <?php include 'header.php'; ?> 
       <!----------------------------------------wapper-end--------------------------------------------->
       <main id="main">
          <div class="page-header  text-dark parallax has-image">
