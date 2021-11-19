@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from demo.thedevelovers.com/dashboard/klorofil-v2.0/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Jul 2021 18:55:51 GMT -->
+
 <head>
 	<title>Dashboard | Miklol Consulting & Research</title>
 	<meta charset="utf-8">
@@ -34,8 +34,8 @@
 
 		<!-- NAVBAR -->
 		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="brand">
-				<a href="about.php"><img src="assets/img/miklol2.png" style="height: 30px; width: 10px;" width="100" height="50px" alt="Klorofil Logo" class="img-responsive logo"></a>
+			<div  style=" padding-top: 10px;  padding-bottom: 10px;" class="brand">
+				<a href="about.php"><img src="assets/img/miklol2.png" style="max-height: 70px;"  alt="Klorofil Logo" class="img-responsive logo"></a>
 			</div>
 			<div class="container-fluid">
 			

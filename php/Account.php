@@ -34,7 +34,7 @@ class Account
                
             
                 echo '<script language="javascript">';
-                echo 'alert("Welcomeeee! ' . $_SESSION["UserName"] . '"); document.location = "/admin/about.php"';
+                echo 'alert("Welcomeeee! ' . $_SESSION["UserName"] . '"); document.location = "../about.php"';
                 echo '</script>';
             } else {
                 echo "<script>alert('Invaild UserName or Password');
@@ -49,7 +49,7 @@ class Account
         session_start();
         unset($_SESSION["UserName"]);
         echo "<script>alert('GoodBye!');
-        document.location = '/admin/Login/login.php' </script>";
+        document.location = '../Login/login.php' </script>";
     }
 
     //Send authorized email with an attached token if a user forgets his/her password
