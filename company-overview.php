@@ -1,3 +1,10 @@
+<?php 
+require('php/front.php'); 
+$front = new FrontEnd();
+$contact=$front->contact();
+$service=$front->services();
+$about=$front->about();
+?>
 <!doctype html>
 <html>
    <head>
@@ -24,7 +31,7 @@
          <main id="main">
             <div class="page-header  text-dark parallax has-image">
                <div class="page-header-content">
-                  <div class="featured-image" style="background:url(image/company-overview/banner.jpg);">
+                  <div  class="featured-image" style="background:url(image/key.jpg); background-position: center; background-size: cover; ">
                      <div class="container">
                         <div class="row">
                            <div class="heading">
@@ -47,22 +54,22 @@
                   <div class="row">
                      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                         <div class="image">
-                           <img src="image/company-overview/about-us-wel.jpg" class="img-responsive" alt="about-us" width="770" height="430" />
+                           <img src="image/5.jpg" class="img-responsive" alt="about-us" width="770" height="430" />
                         </div>
                      </div>
                      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <div class="content-outer-about">
                            <div class="content-inner in">
-                              <h2><a>Who We are</a></h2>
-                              <p>Come to DelWare to do the best work, with the best teams.</p>
+                              <h2><a>Mission</a></h2>
+                              <p><?php echo $about['Mission']; ?></p>
                            </div>
                            <div class="content-inner in">
-                              <h2><a>Mission & Values</a></h2>
-                              <p>Experienced professional or a recent graduate, working with DelWare.</p>
+                              <h2><a>Vision</a></h2>
+                              <p><?php echo $about['Vision']; ?></p>
                            </div>
                            <div class="content-inner">
-                              <h2><a>Our History</a></h2>
-                              <p>Could be a challenging and rewarding next step in your career.</p>
+                              <h2><a>Value</a></h2>
+                              <p><?php echo $about['Value']; ?></p>
                            </div>
                         </div>
                      </div>
@@ -76,19 +83,16 @@
                         <div class="content-about-about-two">
                            <div class="content-inner">
                               <div class="heading">
-                                 <h1>The world's largest global provider dedicated to <span>Consulting</span> and <span>Finance</span> solutions.</h1>
+                                 <h1>WE are <span> Consulting </span> and <span> Research </span> Institiute.</h1>
                               </div>
-                              <p>How all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness one rejects, dislikes, or avoids pleasure itself, because it is pleasure,</p>
+                              <p></p>
                            </div>
                         </div>
                      </div>
                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="content-about-about-two">
                            <div class="content-inner">
-                              <p>We are a global management consulting firm that serves a private, public and
-                                 social business sectors . We help our clients make significant and and realize
-                                 their most important goals who loves or pursues or desires to obtain pain of
-                                 because pain, but because occasionally desires to occur.
+                              <p><?php echo $about['About']; ?>
                               </p>
                               <p>Our clients make significant and & realize their most important goals who
                                  loves or pursues our desires to obtain pains of  because is pain, but because
@@ -106,7 +110,7 @@
                   </div>
                </div>
             </div>
-            <div class="work-process">
+            <div style="background:url(image/6.jpg); background-size:cover; " class="work-process">
                <div class="container">
                   <div class="row">
                      <div class="col-lg-12">
@@ -329,7 +333,7 @@
                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 package-one">
                         <div class="inner-section">
                            <h2>For Business Process</h2>
-                           <p>Call Us at<span> 1 (857) 899-0009 </span>or click below to get a quote</p>
+                           <p>Call Us at <span><?php  echo $contact['PhoneNo']; ?> </span>or click below to get a quote</p>
                            <h6><a href="#" class="btn-1">Get a quote</a></h6>
                         </div>
                      </div>
@@ -354,7 +358,7 @@
                            <p>Delaware is one of the best business consulting firms. We help global leaders with their organization's most critical issues & opportunities. </p>
                            <ul>
                               <li><span>Need Help? Call us now:</span></li>
-                              <li>1 (857) 899-0009</li>
+                              <li><?php echo $contact['PhoneNo']; ?></li>
                            </ul>
                            <ul>
                               <li><span> Visit Our Office:</span> </li>
