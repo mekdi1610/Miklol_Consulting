@@ -61,7 +61,7 @@
                      <div class="row">
                         <div class="site-logo col-md-3 col-sm-6 col-xs-6">
                            <a href="index.php" class="logo">
-                              <img src="image/miklol.png" class="logo-dark show-logo"  alt="img"/>
+                              <img style="height: 50px;" src="image/miklol.png" class="logo-dark show-logo"  alt="img"/>
                            </a>
                            <h1 class="site-title"><a href="#">FactoryPlus</a></h1>
                            <h2 class="site-description">Just another Steel Themes Sites site</h2>
