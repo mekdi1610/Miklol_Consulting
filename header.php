@@ -1,3 +1,8 @@
+<?php 
+$front = new FrontEnd();
+$contact=$front->contact();
+
+?>
 <div class="preloader" id="preloader"></div>
       <div id="page" class="page-wrapper header-sticky header-v1 hide-topbar-mobile header-sticky">
          <div class="wapper">
@@ -29,7 +34,7 @@
                   <div class="row">
                      <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12">
                         <div class="logo">
-                            <a href="index.html"><img src="image/logo-delware.png"  class="image-responsive" alt="logo" width="161" height="42" /></a>
+                            <a href="index.html"><img style="width: auto;" src="image/miklol.png"  class="image-responsive" alt="logo" width="161" height="42" /></a>
                         </div>
                      </div>
                      <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
@@ -39,11 +44,14 @@
                                  <span class="icontop ">
                                     <img src="image/svg1/phone-call.svg" class="icon-top-head" alt="img">
                                  </span>
-                                 <span class="iconcont">1 (857) 899-0009<br><a>Any quries? Call us.</a></span>
+                                 <span class="iconcont"><?php echo $contact['PhoneNo']; ?><br><a>Any quries? Call us.</a></span>
                               </div>
                               <div class="info-inner ">
                                  <span class="icontop"><img src="image/svg1/placeholder.svg" class="icon-top-head" alt="img"></span>
-                                 <span class="iconcont">Wilmington, DE 1108<br><a>Delaware Bridge Street.</a></span>
+                                 <span class="iconcont"><?php $adress= $contact['Address']; $text_line = explode("floor",$adress);
+
+print $text_line[0]; ?><br><a> <?php print $text_line[1]; ?></a></span>
+
                               </div>
                               <div class="info-inner">
                                  <span class="button"><a href="#">Get a Quote</a></span>
@@ -55,13 +63,14 @@
                </div>
             </div>
             <!-- masthead -->
+
             <header id="masthead" class="site-header clearfix">
                <div class="header-main">
                   <div class="container">
                      <div class="row">
                         <div class="site-logo col-md-3 col-sm-6 col-xs-6">
                            <a href="index.php" class="logo">
-                              <img style="height: 50px;" src="image/miklol.png" class="logo-dark show-logo"  alt="img"/>
+                              <img style="height: auto;" src="image/miklol.png" class="logo-dark show-logo"  alt="img"/>
                            </a>
                            <h1 class="site-title"><a href="#">FactoryPlus</a></h1>
                            <h2 class="site-description">Just another Steel Themes Sites site</h2>

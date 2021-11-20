@@ -1,3 +1,8 @@
+<?php require('php/front.php'); 
+$front = new FrontEnd();
+$contact=$front->contact();
+$service=$front->services();
+?>
 <!doctype html>
 <html>
 
@@ -60,8 +65,8 @@
                                     <div class="col-sm-12">
                                         <div class="input-group">
                                             <ul>
-                                                <li><span class="flaticon-pin"></span> Wilmington, 198, Delaware Bridge St.</li>
-                                                <li><span class="flaticon-phone-1"></span> 1 (857) 899-0009</li>
+                                                <li><span class="flaticon-pin"></span>Wilmington, 198, Delaware Bridge St.</li>
+                                                <li><span class="flaticon-phone-1"></span><?php echo $contact['PhoneNo']; ?></li>
                                                 <li><span class="flaticon-clock"></span> Mon - Sat: 9.00 to 19.00</li>
                                             </ul>
                                         </div>
@@ -161,7 +166,7 @@
                     <ul>
                         <li data-index="rs-3045" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="image/main-slider/home-2/ban1.jpg" alt="" width="1920" height="850" data-lazyload="../../assets/images/photography9.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="14" class="rev-slidebg" data-no-retina>
+                            <img src="image/1.jpg" alt="" width="1920" height="850" data-lazyload="../../assets/images/photography9.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="14" class="rev-slidebg" data-no-retina>
                             <!-- LAYER NR. 1 -->
                             <div class="tp-caption titel-1   tp-resizeme" id="slide-3049045-layer-1" data-x="['left','left','left','left']" data-hoffset="[540','0','0','0']" data-y="['top','top','top','top']" data-voffset="['200','200','200','200']" data-fontsize="['60','60','52','45']" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power3.easeInOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 5; white-space: nowrap;  line-height: 90px;">Get Competitive &
                             </div>
@@ -183,7 +188,7 @@
                             <a class="tp-caption fp_button_layer rev-btn  tp-resizeme" href="#" target="_blank" id="slide-3049045-layer-6" data-x="['left','left','left','left']" data-hoffset="[540','0','0','0']" data-y="['top','top','top','top']" data-voffset="['545','545','505','495']" data-fontsize="['14','14','14','12']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions="" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:900,&quot;speed&quot;:500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[100%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;nothing&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[17,10,10,10]" data-paddingright="[30,30,30,30]" data-paddingbottom="[17,10,10,10]" data-paddingleft="[30,30,30,30]" style="z-index: 9; white-space: nowrap; color: rgb(255, 255, 255); background-color:#2685f9; border-color: rgb(255, 255, 255); border-width: 2px; outline: none; box-shadow: none; box-sizing: border-box; cursor: pointer; text-decoration: none; visibility: inherit; transition: none 0s ease 0s; text-align: left; line-height: 20px; margin: 0px; letter-spacing: 0px; font-weight: 700; font-size: 16px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 44, 0, 1); transform-origin: 50% 50% 0px;">Read More About us</a>
                         </li>
                         <li data-index="rs-3046" data-transition="fadetotopfadefrombottom" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Parallax" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                            <img src="image/main-slider/home-2/ban2.jpg" alt="" width="1920" height="850" data-lazyload="../../assets/images/photography9.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="15" class="rev-slidebg" data-no-retina>
+                            <img src="image/2.jpg" alt="" width="1920" height="850" data-lazyload="../../assets/images/photography9.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="15" class="rev-slidebg" data-no-retina>
                             <!-- LAYER NR. 1 -->
                             <div class="tp-caption titel-1  tp-resizeme" id="slide-3049046-layer-1" data-x="['center','center','center','center']" data-hoffset="[0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['270','270','250','250']" data-height="['auto','auto','auto','auto']" data-fontsize="['60','60','52','35']" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power3.easeInOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 5; white-space: nowrap; color:#fff;  line-height: 90px;">Extremely Intellectual
                             </div>
@@ -203,7 +208,7 @@
                         
                         <li data-index="rs-3049" data-transition="zoomin" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Love it?" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="image/main-slider/home-2/ban3.jpg" alt="" width="1920" height="850" data-lazyload="../../assets/images/photography9.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="16" class="rev-slidebg" data-no-retina>
+                            <img src="image/3.jpg" alt="" width="1920" height="850" data-lazyload="../../assets/images/photography9.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="16" class="rev-slidebg" data-no-retina>
                             <!-- LAYER NR. 1 -->
                             <div class="tp-caption titel-1   tp-resizeme" id="slide-3049-layer-1" data-x="['left','left','left','left']" data-hoffset="[0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['230','230','230','230']" data-fontsize="['60','60','52','35']" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power3.easeInOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 5; white-space: nowrap; color:#222222; line-height: 90px;">We Provide the
                             </div>
@@ -228,7 +233,6 @@
                 </div>
             </div>
             <!----slider-end------->
-            <!----welcome------->
             <div class="welcome-section">
                 <div class="container-fluid wel-c">
                     <div class="row wel-row">
@@ -295,7 +299,7 @@
                             <div class="col-lg-7 col-md-7 col-xs-12 col-sm-12 column-company">
                                 <div class="company-inner-one wow zoomIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                                     <div class="image-sec">
-                                        <img src="homepage2/img-1/company-over.jpg" class="img-responsive" alt="company" width="405" height="422"  />
+                                        <img src="image/4.jpg" class="img-responsive" alt="company" width="405" height="422"  />
                                     </div>
                                     <div class="btn-2">
                                         <span><a href="#"><img src="homepage2/img-1/right-arrow-circular-button.svg" alt="image" class="logo-read"  />READ MORE ABOUT OUR VALUES</a></span>
@@ -390,7 +394,8 @@
             <div class="service-protfolio-type">
                 <div class="container">
                     <div class="row">
-                        <div class="column-in col-lg-4 col-md-4  col-sm-6 col-xs-12">
+                        <?php while ($row = $service->fetch()){ ?>
+                        <div style="height:318px;" class="column-in col-lg-4 col-md-4  col-sm-6 col-xs-12">
                             <div class="service-protfolio-outer in wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="service-protfolio-inner ">
                                     <div class="icon">
@@ -398,106 +403,18 @@
                                     </div>
                                     <div class="content">
                                         <div class="entery-title">
-                                            <h2>Finance & Restructuring</h2>
+                                            <h2><?php echo $row['Title']; ?></h2>
                                         </div>
                                         <div class="description">
-                                            <p>Committed to clients success, our professionals risks and opportunities.</p>
+                                            <p>Committed to ccess, our professionals risks and opportunities.</p>
                                         </div>
                                         <a><span class="read">Read More</span>  <span class="icon-read"><i class="flaticon-next"></i></span></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="column-in col-lg-4 col-md-4  col-sm-6 col-xs-12">
-                            <div class="service-protfolio-outer in wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div class="service-protfolio-inner">
-                                    <div class="icon">
-                                        <span class="flaticon-coach service"></span>
-                                    </div>
-                                    <div class="content">
-                                        <div class="entery-title">
-                                            <h2>Strategic Planning</h2>
-                                        </div>
-                                        <div class="description">
-                                            <p>We also have deep expertise in antitrust issues, mergers and acquisitions.</p>
-                                        </div>
-                                        <a><span class="read">Read More</span>  <span class="icon-read"><i class="flaticon-next"></i></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column-in col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="service-protfolio-outer in wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div class="service-protfolio-inner">
-                                    <div class="icon">
-                                        <span class="flaticon-speaker service"></span>
-                                    </div>
-                                    <div class="content">
-                                        <div class="entery-title">
-                                            <h2>Marketing & Sales</h2>
-                                        </div>
-                                        <div class="description">
-                                            <p>Our team supports clients high stakes arbitration and compliance.</p>
-                                        </div>
-                                        <a><span class="read">Read More</span>  <span class="icon-read"><i class="flaticon-next"></i></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column-in col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="service-protfolio-outer wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div class="service-protfolio-inner">
-                                    <div class="icon">
-                                        <span class="flaticon-support service"></span>
-                                    </div>
-                                    <div class="content">
-                                        <div class="entery-title">
-                                            <h2>Strategic Communications</h2>
-                                        </div>
-                                        <div class="description">
-                                            <p>Our broad network with key influencers, we reaches the audience.</p>
-                                        </div>
-                                        <a><span class="read">Read More</span>  <span class="icon-read"><i class="flaticon-next"></i></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column-in col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="service-protfolio-outer wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div class="service-protfolio-inner">
-                                    <div class="icon">
-                                        <span class="flaticon-stock service"></span>
-                                    </div>
-                                    <div class="content ">
-                                        <div class="entery-title">
-                                            <h2>Trades & Stocks</h2>
-                                        </div>
-                                        <div class="description">
-                                            <p>We also analyze financial data to assist companies with risk avoidance.</p>
-                                        </div>
-                                        <a><span class="read">Read More</span>  <span class="icon-read"><i class="flaticon-next"></i></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column-in col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="service-protfolio-outer wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div class="service-protfolio-inner">
-                                    <div class="icon">
-                                        <span class="flaticon-user service"></span>
-                                    </div>
-                                    <div class="content">
-                                        <div class="entery-title">
-                                            <h2>Audit & Assurance</h2>
-                                        </div>
-                                        <div class="description">
-                                            <p>We can also assist with the recovery of assets lost to fraud and identify..</p>
-                                        </div>
-                                        <a><span class="read">Read More</span>  <span class="icon-read"><i class="flaticon-next"></i></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <?php } ?>
+                        
                     </div>
                 </div>
             </div>
@@ -513,7 +430,7 @@
                         </div>
                         <div class="cont-btn col-lg-2 col-md-2 col-xs-12 col-sm-12">
                             <div class="parallex-btn">
-                                <a href="#">CONTACT US</a>
+                                <a href="contact.php">CONTACT US</a>
                             </div>
                         </div>
                     </div>

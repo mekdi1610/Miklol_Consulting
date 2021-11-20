@@ -1,3 +1,9 @@
+<?php 
+require('php/front.php'); 
+$front = new FrontEnd();
+$contact=$front->contact();
+$service=$front->services();
+?>
 <!doctype html>
 <html>
    <head>
@@ -24,7 +30,7 @@
          <main id="main">
             <div class="page-header  text-dark parallax has-image">
                <div class="page-header-content">
-                  <div class="featured-image" style="background:url(image/company-overview/banner.jpg);">
+                  <div class="featured-image" style="background:url(image/key.jpg); background-position: center; background-size: cover;">
                      <div class="container">
                         <div class="row">
                            <div class="heading">
@@ -44,132 +50,29 @@
             <div class="our-services-section">
                <div class="container">
                   <div class="row">
-                     <div class="col-md-4 col-xs-12 col-sm-6">
+                  <?php while ($row = $service->fetch()){ ?>
+                     <div style="height:318px;" class="col-md-4 col-xs-12 col-sm-6">
                         <div class="service-1">
                            <div class="image-1">
                               <img src="image/service/1.png" class="img-responsive" alt="product-image">
                               <div class="overlay-1">
                                  <div class="text-1">
                                     <span class="flaticon-powerpoint service"></span>
-                                    <p>Finance & Restructuring</p>
+                                    <p> <?php echo $row['Title']; ?></p>
                                  </div>
                               </div>
                            </div>
                            <div class="txt-inner">
                               <span class="flaticon-powerpoint service-in"></span>
                               <div class="text-in-inner">
-                                 <h2>Finance & Restructuring</h2>
+                                 <h2><?php echo $row['Title']; ?></h2>
                                  <p>Committed to clients success, our professionals risks and opportunities.</p>
                                  <h6> <a href="">Read More<i class="fas fa-arrow-right"></i></a></h6>
                               </div>
                            </div>
                         </div>
                      </div>
-                     <div class="col-md-4 col-xs-12 col-sm-6">
-                        <div class="service-1">
-                           <div class="image-1">
-                              <img src="image/service/2.png" class="img-responsive" alt="product-image">
-                              <div class="overlay-1">
-                                 <div class="text-1">
-                                    <span class="flaticon-coach service "></span>
-                                    <p>Strategic Planning</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="txt-inner">
-                              <span class="flaticon-coach service-in"></span>
-                              <div class="text-in-inner">
-                                 <h2>Strategic Planning</h2>
-                                 <p>We also have deep expertise in antitrust issues, mergers and acquisitions.</p>
-                                 <h6> <a href="">Read More<i class="fas fa-arrow-right"></i></a></h6>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-4 col-xs-12 col-sm-6">
-                        <div class="service-1">
-                           <div class="image-1">
-                              <img src="image/service/3.png" class="img-responsive" alt="product-image">
-                              <div class="overlay-1">
-                                 <div class="text-1">
-                                    <span class="flaticon-speaker  service"></span>
-                                    <p>Marketing & Sales</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="txt-inner">
-                              <span class="flaticon-speaker service-in"></span>
-                              <div class="text-in-inner">
-                                 <h2>Marketing & Sales</h2>
-                                 <p>Our team supports clients high stakes  arbitration and compliance investigations.</p>
-                                 <h6> <a href="">Read More<i class="fas fa-arrow-right"></i></a></h6>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <div class="service-1">
-                           <div class="image-1">
-                              <img src="image/service/4.png" class="img-responsive" alt="product-image">
-                              <div class="overlay-1">
-                                 <div class="text-1">
-                                    <span class="flaticon-support service"></span>
-                                    <p>Strategic Communications</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="txt-inner">
-                              <span class="flaticon-support service-in"></span>
-                              <div class="text-in-inner">
-                                 <h2>Strategic Communications</h2>
-                                 <p>Our broad network with key influencers, we reaches the audience at the right time.</p>
-                                 <h6> <a href="">Read More<i class="fas fa-arrow-right"></i></a></h6>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <div class="service-1">
-                           <div class="image-1">
-                              <img src="image/service/5.png" class="img-responsive" alt="product-image">
-                              <div class="overlay-1">
-                                 <div class="text-1">
-                                    <span class="flaticon-stock service"></span>
-                                    <p>Trades & Stocks</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="txt-inner">
-                              <span class="flaticon-stock service-in"></span>
-                              <div class="text-in-inner">
-                                 <h2>Trades & Stocks</h2>
-                                 <p>We also analyze financial data to assist companies with risk avoidance..</p>
-                                 <h6> <a href="">Read More<i class="fas fa-arrow-right"></i></a></h6>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <div class="service-1">
-                           <div class="image-1">
-                              <img src="image/service/6.png" class="img-responsive" alt="product-image">
-                              <div class="overlay-1">
-                                 <div class="text-1">
-                                    <span class="flaticon-user service"></span>
-                                    <p>Audit & Assurance</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="txt-inner">
-                              <span class="flaticon-user service-in"></span>
-                              <div class="text-in-inner">
-                                 <h2>Audit & Assurance</h2>
-                                 <p>We can also assist with the recovery of assets lost to fraud and identify..</p>
-                                 <h6> <a href="">Read More<i class="fas fa-arrow-right"></i></a></h6>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
+                     <?php } ?>
                   </div>
                </div>
             </div>
