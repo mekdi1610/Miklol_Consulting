@@ -1,3 +1,4 @@
+<?php require('php/front.php');  ?>
 <!doctype html>
 <html>
    <head>
