@@ -20,10 +20,9 @@ $contact=$front->contact();
                      </div>
                      <div class="col-inner col-lg-7 col-md-7 col-xs-12 col-sm-12 top-in">
                         <div class="top-right-inner">
-                           <p class="para in">Get Support</p>
-                           <p class="para in">Job Careers</p>
-                           <p class="para in">Feedbacks</p>
-                           <p class="para"><i class="fas fa-globe"></i> Location: Newyork <i class="fas fa-angle-down"></i></p>
+                           <p class="para in"> <a href="contact.php"> Get Support</a></p>
+                           <p class="para in"> <a href="contact.php"> Feedbacks </a></p>
+                           
                         </div>
                      </div>
                   </div>

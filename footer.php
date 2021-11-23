@@ -1,4 +1,4 @@
-<div class="footer-last">
+<div  class="footer-last">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -7,12 +7,12 @@
                                     <h2>Company info</h2>
                                 </div>
                                 <div class="content-inner">
-                                    <p class="fist in">Delaware is one of the best business
-                                        <br/>consulting firms. </p>
-                                    <p class="secnd"><span>Wilmington, DE 198</span>
-                                        <br/>Delaware Bridge Street.</p>
+                                    <p class="fist in">Miklol Consulting & Research </p>
+                                    <p class="secnd"><span class="iconcont"><?php $adress= $contact['Address']; $text_line = explode("floor",$adress);
+
+print $text_line[0]; ?><a> <?php print $text_line[1]; ?></a></span> </p> 
                                     <p class="third"><span>Need Help? Call us now:</span>
-                                        <br/>1 (857) 899-0009</p>
+                                        <br/><?php echo $contact['PhoneNo']; ?></p>
                                     <p class="frth"><span>Visit Our Office: </span>
                                         <br/>Monday - Satday: 9.00am to 5.00pm</p>
                                 </div>
@@ -27,27 +27,19 @@
                                     <table>
                                         <tbody>
                                             <tr>
-                                                <td class="main"><a> About Us</a></td>
-                                                <td><a>Services</a></td>
+                                                <td class="main"><a href="index.php"> Home </a></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
-                                                <td class="main"><a>Meet Our Team</a></td>
-                                                <td><a>FAQ’S</a></td>
+                                                <td class="main"><a href="company-overview.php"> About </a></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
-                                                <td class="main"><a>Case Studies</a></td>
-                                                <td><a>News</a></td>
+                                                <td class="main"><a href="services.php" > Service</a></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
-                                                <td class="main"><a>Get a Quote</a></td>
-                                                <td><a>Shop</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="main"><a>Testimonials</a></td>
-                                                <td><a>Industries</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="main"><a>Contact Us</a></td>
+                                                <td class="main"><a href="contact.php"> Contact</a></td>
                                                 <td></td>
                                             </tr>
                                         </tbody>
@@ -62,7 +54,7 @@
                                 </div>
                                 <div class="content-inner">
                                     <p class="fist">Subscribing to our mailing list and receive weekly newsletter with latest news and offers.</p>
-                                    <form action="home-page-2.html">
+                                    <form action="index.php">
                                         <div class="form-outer">
                                             <div class="column-1 col-lg-10 col-md-10 col-sm-10 col-xs-10">
                                                 <div class="form-group">
@@ -98,21 +90,41 @@
                 </div>
             </div>
             <!------sec-11------------------------------------footer-last--------------------------------------->
-            <div class="footer">
+            <div style="padding:0;" class="footer">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                             <ul>
-                                <li>Copyright © 2018 Delaware Consulting, All Right Reserved</li>
+                                <li>Copyright © <script>document.write(new Date().getFullYear())</script> Miklol consulting & Research , All Right Reserved</li>
                             </ul>
                         </div>
                         <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                             <ul class="link">
-                                <li class="bor"><a href="#">TermsPrivacy </a></li>
-                                <li><a href="#"> PolicyCareers</a></li>
+                                <li class="bor"><a href="#"> </a></li>
+                                <li><a href="#"> </a></li>
                                 <li><a href="#" class="back-to-top" title="Back to top"><i class="fas fa-angle-up"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
+            <!------sec-11------------------------------------footerlast-end--------------------------------------->
+        </main>
+    </div>
+    <!--primary-mobile-nav-->
+    <div class="primary-mobile-nav header-v1" id="primary-mobile-nav" role="navigation">
+        <a href="#" class="close-canvas-mobile-panel">×</a>
+        <ul id="primary-menu2" class="menu">
+            <li>
+                <a href="index.php">Home</a>
+            </li>
+            <li>
+                <a href="company-overview.php">About</a>
+            </li>
+            <li>
+                <a href="service.php">Services</a>
+            </li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+    </div>
+    <div id="off-canvas-layer" class="off-canvas-layer"></div>

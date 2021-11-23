@@ -42,14 +42,6 @@ $service=$front->services();
                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                         <div class="row">
                             <div class="top-col in col-sm-12 col-sm-12 col-md-2 col-lg-2">
-                                <div class="input-group tab">
-                                    <span class="input-group-addon"><i class="flaticon-internet top-gob"></i>Location:</span>
-                                    <select class="form-control top " id="washroomtype" onchange="ShowHideDiv2()">
-                                        <option class="active">NewYork </option>
-                                        <option>London</option>
-                                        <option>Paris</option>
-                                    </select>
-                                </div>
                             </div>
                             <script>
                                 function ShowHideDiv2() {
@@ -96,12 +88,7 @@ $service=$front->services();
                                 </div>
                             </div>
                             <div class="top-col col-lg-2 col-md-2 col-xs-12 col-sm-12">
-                                <div class="span12">
-                                    <form method="get" action="index1.html" class="form-inline search-outer">
-                                        <input name="search" class="form-control search" type="text" placeholder="Search:">
-                                        <button type="submit" class="btn btn-primary"> <i class="fas fa-search"></i></button>
-                                    </form>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -131,7 +118,7 @@ $service=$front->services();
                             <nav id="site-navigation" class="main-nav primary-nav nav">
                                 <ul id="primary-menu" class="menu pull-right">
                                     <li class="dropdown-item current-menu-item">
-                                        <a href="#">Home</a>
+                                        <a href="index.php">Home</a>
                                         
                                     </li>
                                     <li class="dropdown-item">
@@ -383,7 +370,7 @@ $service=$front->services();
                         </div>
                         <div class="col-lg-7 col-md-7 col-xs-12 col-sm-12">
                             <div class="service-inner-one">
-                                <p>Delware Consulting understands that to help meet client challenges and opportunities successfully in a global economy</p>
+                                <p>Miklol Consulting understands that to help meet client challenges and opportunities successfully in a global economy</p>
                             </div>
                         </div>
                     </div>
@@ -663,77 +650,7 @@ $service=$front->services();
                     </div>
                 </div>
             </div>
-            <?php include 'footer.php' ?>
-            <!------sec-11------------------------------------footerlast-end--------------------------------------->
-        </main>
-    </div>
-    <!--primary-mobile-nav-->
-    <div class="primary-mobile-nav header-v1" id="primary-mobile-nav" role="navigation">
-        <a href="#" class="close-canvas-mobile-panel">×</a>
-        <ul id="primary-menu2" class="menu">
-            <li class="dropdown-item current-menu-item menu-item-has-children">
-                <a href="#">Home</a>
-                <ul class="sub-menu">
-                    <li><a href="index.html">Home 1</a></li>
-                    <li><a href="home-page-2.html">Home 2</a></li>
-                    <li><a href="home-page-3.html">Home 3</a></li>
-                    <li><a href="home-page-4.html">Home 4</a></li>
-                    <li><a href="home-page-5.html">Home 5</a></li>
-                    <li><a href="home-page-6.html">Home 6</a></li>
-                </ul>
-            </li>
-            <li class="dropdown-item menu-item-has-children">
-                <a href="#">About</a>
-                <ul class="sub-menu">
-                    <li><a href="company-overview.html">Company Overview</a></li>
-                    <li><a href="mission&valves.html">Mission & Values</a></li>
-                    <li><a href=".faq.html">FAQ</a></li>
-                    <li><a href="our-career.html">Our Career</a></li>
-                    <li><a href="testimonial.html">Testimonials</a></li>
-                    <li><a href="office-location.html">Office Location</a></li>
-                    <li><a href="our-history.html">Our History</a></li>
-                </ul>
-            </li>
-            <li class="dropdown-item menu-item-has-children">
-                <a href="#">Services</a>
-                <ul class="sub-menu">
-                    <li><a href="services.html">All Services</a></li>
-                    <li><a href="services-single.html">Services Single</a></li>
-                </ul>
-            </li>
-            <li class="dropdown-item menu-item-has-children">
-                <a href="#">Our Case</a>
-                <ul class="sub-menu">
-                    <li><a href="case-studies-1.html">Our Case 1</a></li>
-                    <li><a href="case-studies-2.html">Our Case 2</a></li>
-                    <li><a href="case-studies-3.html">Our Case 3</a></li>
-                    <li><a href="case-studies-4.html">Our Case 4</a></li>
-                </ul>
-            </li>
-            <li class="dropdown-item menu-item-has-children">
-                <a href="#">Blog</a>
-                <ul class="sub-menu">
-                    <li><a href="blog-default.html">Blog Default1</a></li>
-                    <li><a href="blog-fullwidth.html">Blog Fullwidth</a></li>
-                    <li><a href="blog-snigle-post.html">Blog Snigle Post</a></li>
-                    <li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
-                    <li><a href="bolg-masonary.html">Bolg Masonary</a></li>
-                </ul>
-            </li>
-            <li class="dropdown-item menu-item-has-children">
-                <a href="#">Shop</a>
-                <ul class="sub-menu">
-                    <li><a href="shop-1.html">Checkout</a></li>
-                    <li><a href="shop-2.html">My Account</a></li>
-                    <li><a href="shop-3.html">Our Shop</a></li>
-                    <li><a href="shop-4.html">Product Single</a></li>
-                    <li><a href="shop-5.html">Shopping Cart</a></li>
-                </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-    <div id="off-canvas-layer" class="off-canvas-layer"></div>
+<?php include'footer.php' ?>
     <!--primary-mobile-nav end-->
      <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/bootstrap.min.js">

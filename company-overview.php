@@ -10,15 +10,20 @@ $about=$front->about();
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-       <title>Delware | Just another Steel Themes Sites site</title>
+       <title>Miklol Consulting & Research</title>
       <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
       <link type="text/css" rel="stylesheet" href="css/responsive.css"/>
       <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
       <link href="css/inner-page-style.css" rel="stylesheet" type="text/css" />
       <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
+      <link type="text/css" rel="stylesheet" href="homepage2/css/style1.css" />
+    <link rel="stylesheet" type="text/css" href="homepage2/css/navbar.css" />
+    
       <!-- Libraries CSS Files -->
       <link href="css/font-awesome.css" rel="stylesheet">
       <!-----navbar----css-------->
+      <link type="text/css" rel="stylesheet" href="homepage2/owl/assets/owl.carousel.min.css">
+    <link type="text/css" rel="stylesheet" href="homepage2/owl/assets/owl.theme.default.min.css" />
       <link rel="stylesheet" type="text/css" href="css/navbar.css" />
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
       <!--Favicon-->
@@ -35,13 +40,12 @@ $about=$front->about();
                      <div class="container">
                         <div class="row">
                            <div class="heading">
-                              <h1>Company Overview</h1>
+                              <h1>About Us</h1>
                            </div>
                            <div class="bread-cumb-inner">
                               <ul class="breadcrumb">
                                  <li class="active"><a href="#">Home</a></li>
                                  <li><a href="#">About Us</a></li>
-                                 <li>Company Overview</li>
                               </ul>
                            </div>
                         </div>
@@ -347,78 +351,7 @@ $about=$front->about();
                   </div>
                </div>
             </div>
-           <?php include'footer.php' ?> 
-            <!------sec------------------------------------footerlast-end--------------------------------------->  
-         </main>
-      </div>
-      
-            <!--primary-mobile-nav-->
-      <div class="primary-mobile-nav header-v1" id="primary-mobile-nav" role="navigation">
-         <a href="#" class="close-canvas-mobile-panel">×</a>
-         <ul id="primary-menu2" class="menu">
-            <li class="dropdown-item current-menu-item menu-item-has-children">
-               <a href="#">Home</a>
-               <ul class="sub-menu">
-                  <li><a href="index.html">Home 1</a></li>
-                  <li><a href="home-page-2.html">Home 2</a></li>
-                  <li><a href="home-page-3.html">Home 3</a></li>
-                  <li><a href="home-page-4.html">Home 4</a></li>
-                  <li><a href="home-page-5.html">Home 5</a></li>
-                  <li><a href="home-page-6.html">Home 6</a></li>
-               </ul>
-            </li>
-            <li class="dropdown-item  menu-item-has-children">
-               <a href="#">About</a>
-               <ul class="sub-menu">
-                  <li><a href="company-overview.html">Company Overview</a></li>
-                  <li><a href="mission&valves.html">Mission & Values</a></li>
-                  <li><a href="faq.html">FAQ</a></li>
-                  <li><a href="our-career.html">Our Career</a></li>
-                  <li><a href="testimonial.html">Testimonials</a></li>
-                  <li><a href="office-location.html">Office Location</a></li>
-                  <li><a href="our-history.html">Our History</a></li>
-               </ul>
-            </li>
-            <li class="dropdown-item  menu-item-has-children">
-               <a href="#">Services</a>
-               <ul class="sub-menu">
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="services-single.html">Services Single</a></li>
-               </ul>
-            </li>
-            <li class="dropdown-item  menu-item-has-children">
-               <a href="#">Our Cases</a>
-               <ul class="sub-menu">
-                  <li><a href="case-studies-1.html">Our Case 1</a></li>
-                  <li><a href="case-studies-2.html">Our Case 2</a></li>
-                  <li><a href="case-studies-3.html">Our Case 3</a></li>
-                  <li><a href="case-studies-4.html">Our Case 4</a></li>
-               </ul>
-            </li>
-            <li class="dropdown-item  menu-item-has-children">
-               <a href="#">Blog</a>
-               <ul class="sub-menu">
-                  <li><a href="blog-default.html">Blog Default</a></li>
-                  <li><a href="blog-fullwidth.html">Blog FullWidth</a></li>
-                  <li><a href="bolg-masonary.html">Blog Masonry</a></li>
-                  <li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
-                  <li><a href="blog-snigle-post.html">Single Post</a></li>
-               </ul>
-            </li>
-            <li class="dropdown-item menu-item-has-children">
-               <a href="#">Shop</a>
-               <ul class="sub-menu">
-                  <li><a href="shop-1.html">Checkout</a></li>
-                  <li><a href="shop-2.html">My Account</a></li>
-                  <li><a href="shop-3.html">Our Shop</a></li>
-                  <li><a href="shop-4.html">Product Single</a></li>
-                  <li><a href="shop-5.html">Shopping Cart</a></li>
-               </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-         </ul>
-      </div>
-      <div id="off-canvas-layer" class="off-canvas-layer"></div>
+            <?php include'footer.php' ?> 
       <!--primary-mobile-nav end-->
        <script src="js/jquery-2.2.4.min.js"></script>
       <script src="js/bootstrap.js"> </script>
@@ -427,6 +360,21 @@ $about=$front->about();
       <script src="js/html5lightbox.js"></script>
       <script src="js/nav-scripts.min.js"></script>
       <script src="js/main.js"> </script>
+ 
+      <script src="revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+       <!-- Slider Revolution extension scripts. ONLY NEEDED FOR LOCAL TESTING-->
+    <script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="homepage1/owl/owl.carousel.js"></script>
+      <script src="js/nav-scripts.min.js"></script>
        <script src="js/preload.js"></script>
       
    </body>
