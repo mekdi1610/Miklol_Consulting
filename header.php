@@ -33,7 +33,7 @@ $contact=$front->contact();
                   <div class="row">
                      <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12">
                         <div class="logo">
-                            <a href="index.html"><img style="width: auto;" src="image/miklol.png"  class="image-responsive" alt="logo" width="161" height="42" /></a>
+                            <a href="index.html"><img style="width: auto;" src="image/miklol.svg"  class="image-responsive" alt="logo" width="161" height="42" /></a>
                         </div>
                      </div>
                      <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
